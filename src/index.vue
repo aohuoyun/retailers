@@ -14,7 +14,6 @@
       }
     },
     mounted(){
-      this.$router.push('/indexes');
     }
   }
 </script>
