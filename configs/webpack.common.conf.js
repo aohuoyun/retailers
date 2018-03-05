@@ -114,7 +114,7 @@ const webConfig = {
         test: /\.vue(\?[^?]+)?$/,
         use: [{
           loader: 'vue-loader',
-          options: Object.assign(vueLoaderConfig({useVue: true, usePostCSS: false}), {
+          options: Object.assign(vueLoaderConfig({useVue: true, usePostCSS: true}), {
             /**
              * important! should use postTransformNode to add $processStyle for
              * inline style prefixing.

@@ -2724,10 +2724,6 @@ module.exports = {
     "justifyContent": "center",
     "alignItems": "center"
   },
-  "logo": {
-    "width": "424",
-    "height": "200"
-  },
   "greeting": {
     "textAlign": "center",
     "marginTop": "70",
